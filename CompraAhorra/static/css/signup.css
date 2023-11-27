@@ -1,0 +1,19 @@
+button{
+    background-color: rgb(85, 172, 85) !important;
+    color: aliceblue;
+    font-family: Arial, sans-serif;
+    margin: 1px solid white; 
+
+}
+body {
+    font-family: Arial, sans-serif; 
+    background-color: rgb(115, 236, 115) !important;
+} 
+.card-center{
+
+
+    height: auto !important;
+    width: 500px !important;
+    margin-left: auto;
+    margin-right: auto;
+}

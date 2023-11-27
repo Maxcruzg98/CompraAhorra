@@ -1,0 +1,158 @@
+a{
+
+    color: white !important;
+}
+
+a:hover{
+
+    background: #028466 !important;
+    font-size: 23px !important;
+ 
+
+}
+
+
+
+.navbar{
+    background: #007b5e !important;
+    height: 60px;
+    font-size: 20px !important;
+    border-bottom: 1px solid black !important;
+
+}
+header{
+
+ background: #007b5e !important;
+}
+.tamano {
+    margin-top: 100px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 1200px !important; /* Ajusta este valor según sea necesario */
+    width: 100%; /* Establece un ancho del 100% para que la imagen ocupe todo el ancho permitido */
+    height: 500px !important; /* Mantén una altura fija */
+}
+body{
+    background-color: whitesmoke !important;
+}
+
+.title-h1{ 
+    text-align: center;
+    font-weight: bold !important;
+    font-size: 50px !important;
+
+}
+.avisos{
+    margin-top:  100px !important;
+}
+.separacion{
+    margin-top: 100px !important;
+
+    margin-bottom: 200px !important
+}
+
+.product-view{
+    color: blue !important;
+    background-color: white !important;
+}
+.product-view:hover{
+    color: blue !important;
+    background-color: white !important;
+}
+.card
+{
+    border-radius: 15px !important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3) ;
+    padding: auto !important;
+}
+
+a.product-view{
+
+    font-size: 17px !important;
+}
+
+.dropdown-item:hover{
+    color: black !important;
+    background-color: whitesmoke !important;
+}
+.dropdown-item{
+    color: black !important;
+    background-color: whitesmoke !important;
+}
+
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 30px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #007b5e !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
